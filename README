@@ -1,0 +1,31 @@
+# Gestão de Vendas
+
+Este projeto é uma API para gestão de vendas, 
+desenvolvida em Node.js utilizando Express e Sequelize.
+
+-- O projeto "Gestão de Vendas" é uma aplicação web desenvolvida para 
+facilitar o controle, a organização e o gerenciamento de processos de 
+venda de produtos. A aplicação tem como objetivo principal automatizar 
+tarefas relacionadas ao registro de produtos, monitoramento de vendas 
+e gerenciamento de estoque, proporcionando uma visão clara e 
+organizada das operações comerciais. -- 
+
+\\* Rotas
+
+Produtos
+POST /products: Cria um novo produto.
+GET /products: Lista todos os produtos.
+GET /products/:id: Exibe um produto específico.
+PUT /products/:id: Atualiza um produto específico.
+DELETE /products/:id: Deleta um produto específico.
+
+Vendas
+POST /sales: Cria uma nova venda.
+GET /sales: Lista todas as vendas.
+GET /sales/:id: Exibe uma venda específica.
+PUT /sales/:id: Atualiza uma venda específica.
+DELETE /sales/:id: Deleta uma venda específica.
+
+
+\\* Tecnologias Utilizadas \\*
+Node.js - Express - Sequelize - MySQL - dotenv
